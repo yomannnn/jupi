@@ -5,7 +5,8 @@
   },
   "waitFor": "onCreateCommand",
   // "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "updateContentCommand": "apt-get update && apt-get install -y lilypond",
+  //"updateContentCommand": "apt-get update && apt-get install -y lilypond",
+  "updateContentCommand": "sudo apt-get update && sudo apt-get install -y lilypond",
   "postCreateCommand": "",
   "customizations": {
     "codespaces": {
