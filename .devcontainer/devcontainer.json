@@ -1,20 +1,23 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "hostRequirements": {
-    "cpus": 4
+    // "cpus": 4
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "python3 -m pip install -r requirements.txt",
+  // "updateContentCommand": "python3 -m pip install -r requirements.txt",
+  "updateContentCommand": "apt-get update && apt-get install -y lilypond",
   "postCreateCommand": "",
   "customizations": {
     "codespaces": {
       "openFiles": []
     },
     "vscode": {
+      // "ms-toolsai.jupyter",
+      // "ms-python.python",
       "extensions": [
-        "ms-toolsai.jupyter",
-        "ms-python.python"
-      ]
+        "jeandeaual.lilypond-syntax",
+        "MS-vsliveshare.vsliveshare"
+	]
     }
   }
 }
