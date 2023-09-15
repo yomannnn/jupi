@@ -12,3 +12,7 @@ sudo apt-get update && sudo apt-get install -y lilypond
 
 lilypond --png test01.ly
 ```
+
+## images
+
+![](.\test01.png)
