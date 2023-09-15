@@ -1,5 +1,9 @@
 notebooks/data
 notebooks/cifar_net.pth
 .ipynb_checkpoints/
-test01.png
+# test01.png
 test01.pdf
+test01-1.eps
+test01-systems.count
+test01-systems.tex
+test01-systems.texi
